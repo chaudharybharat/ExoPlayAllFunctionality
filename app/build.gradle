@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply from: '../constants.gradle'
+android {
+    compileSdkVersion 29
+    buildToolsVersion "30.0.2"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId "com.bharat.expolyaerfinaldemo"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.3.1'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    compileOnly 'org.checkerframework:checker-qual:' + checkerframeworkVersion
+    implementation 'androidx.annotation:annotation:' + androidxAnnotationVersion
+    implementation 'androidx.appcompat:appcompat:' + androidxAppCompatVersion
+    implementation 'androidx.multidex:multidex:' + androidxMultidexVersion
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation ('com.google.guava:guava:' + guavaVersion) {
+        exclude group: 'com.google.code.findbugs', module: 'jsr305'
+        exclude group: 'org.checkerframework', module: 'checker-compat-qual'
+        exclude group: 'com.google.errorprone', module: 'error_prone_annotations'
+        exclude group: 'com.google.j2objc', module: 'j2objc-annotations'
+        exclude group: 'org.codehaus.mojo', module: 'animal-sniffer-annotations'
+    }
+    implementation project(modulePrefix + 'library-core')
+    implementation project(modulePrefix + 'library-dash')
+    implementation project(modulePrefix + 'library-hls')
+    implementation project(modulePrefix + 'library-smoothstreaming')
+    implementation project(modulePrefix + 'library-ui')
+    implementation project(modulePrefix + 'extension-cronet')
+    implementation project(modulePrefix + 'extension-ima')
+    implementation project(modulePrefix + 'extension-av1')
+    implementation project(modulePrefix + 'extension-ffmpeg')
+    implementation project(modulePrefix + 'extension-flac')
+    implementation project(modulePrefix + 'extension-opus')
+    implementation project(modulePrefix + 'extension-vp9')
+    implementation project(modulePrefix + 'extension-rtmp')
+}
+//apply plugin: 'com.google.android.gms.strict-version-matcher-plugin'

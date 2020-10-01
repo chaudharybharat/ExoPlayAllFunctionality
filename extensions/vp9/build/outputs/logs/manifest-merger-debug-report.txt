@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml:18:5-52
+		INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml
+		INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml:17:11-69
+uses-feature#0x00020000
+ADDED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml:20:3-51
+	android:glEsVersion
+		ADDED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml:20:17-49
+uses-sdk
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml
+		ADDED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml
+		INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml
+		ADDED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml
+		INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/vp9/src/main/AndroidManifest.xml

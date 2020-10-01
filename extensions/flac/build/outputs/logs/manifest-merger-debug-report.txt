@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml:17:1-61
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml:17:1-61
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml:17:1-61
+	package
+		ADDED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml:17:11-59
+		INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml
+		INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml:17:1-61
+uses-sdk
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml
+INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml
+		ADDED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml
+		INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml
+		ADDED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml
+		INJECTED from /home/harsh/Documents/Demo/ExpolyaerFinalDemo/extensions/flac/src/main/AndroidManifest.xml
